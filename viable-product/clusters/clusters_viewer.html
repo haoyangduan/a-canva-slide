@@ -1,0 +1,7 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Cluster result viewer</title>
+<style>html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#111827;color:#e5e7eb;font:14px Arial,sans-serif}
+#bar{height:54px;display:flex;align-items:center;gap:14px;padding:0 18px;box-sizing:border-box;background:#1f2937;border-bottom:1px solid #374151}
+#bar strong{font-size:16px} select{background:#111827;color:#f9fafb;border:1px solid #4b5563;border-radius:5px;padding:7px 32px 7px 10px;font-size:14px}
+iframe{display:block;width:100%;height:calc(100% - 54px);border:0;background:#111827}</style></head>
+<body><div id="bar"><strong>Cluster results</strong><label for="camera">Camera</label><select id="camera" onchange="document.getElementById('viewer').src=this.value"><option value="clusters_all.html">All cameras</option><option value="cluster_hik_DA9830526.html">hik_DA9830526</option><option value="cluster_hik_DA9830527.html">hik_DA9830527</option><option value="cluster_hik_DA9830520.html">hik_DA9830520</option><option value="cluster_hik_DA9830524.html">hik_DA9830524</option></select></div>
+<iframe id="viewer" src="clusters_all.html" title="Cluster result viewer"></iframe></body></html>

@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "source": "live_backprojection.cluster_results",
+    "camera_name": "hik_DA9830524",
+    "merge_dist_mm": 25.0,
+    "error_threshold_mm": 20.0,
+    "points3d_path": null,
+    "n_clusters": 10,
+    "n_false_detects": 0
+  },
+  "clusters": [
+    {
+      "cluster_id": 1,
+      "point_mm": [
+        -835.5146817262503,
+        -180.49379922143999,
+        561.7564568984671
+      ],
+      "n_observations": 104,
+      "spread_mm": 3.166117281072476
+    },
+    {
+      "cluster_id": 2,
+      "point_mm": [
+        -878.4051683434518,
+        -103.09899382995718,
+        534.1189782498986
+      ],
+      "n_observations": 109,
+      "spread_mm": 3.1734858496580243
+    },
+    {
+      "cluster_id": 3,
+      "point_mm": [
+        -853.1502742000739,
+        -363.52559081604704,
+        541.7337040491984
+      ],
+      "n_observations": 75,
+      "spread_mm": 0.4948549520505192
+    },
+    {
+      "cluster_id": 4,
+      "point_mm": [
+        -806.2790898399835,
+        -283.63536153108,
+        576.8756154669682
+      ],
+      "n_observations": 91,
+      "spread_mm": 0.6499007680842013
+    },
+    {
+      "cluster_id": 5,
+      "point_mm": [
+        -763.6183191061427,
+        620.3023067435461,
+        574.9042162148689
+      ],
+      "n_observations": 115,
+      "spread_mm": 3.4360181711840734
+    },
+    {
+      "cluster_id": 6,
+      "point_mm": [
+        -837.296982998254,
+        520.7808173202473,
+        540.2002188648294
+      ],
+      "n_observations": 112,
+      "spread_mm": 3.572067092875551
+    },
+    {
+      "cluster_id": 7,
+      "point_mm": [
+        -776.2703374908597,
+        482.31831126131965,
+        582.48232942092
+      ],
+      "n_observations": 115,
+      "spread_mm": 3.374987265202993
+    },
+    {
+      "cluster_id": 8,
+      "point_mm": [
+        -801.0369002720981,
+        121.77104535229955,
+        585.6315240236872
+      ],
+      "n_observations": 114,
+      "spread_mm": 3.16829732884692
+    },
+    {
+      "cluster_id": 9,
+      "point_mm": [
+        -813.6374687813877,
+        286.0725505429,
+        572.254261682072
+      ],
+      "n_observations": 113,
+      "spread_mm": 3.2093200778562183
+    },
+    {
+      "cluster_id": 10,
+      "point_mm": [
+        -869.3864959123821,
+        233.30300367551172,
+        536.8668947417027
+      ],
+      "n_observations": 110,
+      "spread_mm": 3.192947072271501
+    }
+  ],
+  "pairs": [],
+  "summary": {
+    "n_clusters": 10,
+    "n_matched_pairs": 0,
+    "n_inliers": 0,
+    "n_false_detects": 0,
+    "rms_error_mm": 0.0,
+    "mean_error_mm": 0.0,
+    "median_error_mm": 0.0,
+    "max_error_mm": 0.0
+  },
+  "merge_dist_mm": 25.0,
+  "error_threshold_mm": 20.0,
+  "n_clusters": 10,
+  "n_false_detects": 0,
+  "source": {
+    "source": "live_backprojection.project_to_mesh",
+    "camera_name": "hik_DA9830524",
+    "intrinsics_path": "D:\\sz\\gui_global_280926\\intrinsics_combined_071026.json",
+    "vo_track_path": "D:\\sz\\gui_global_280926\\stage5\\261030_101912_20261014_175644_conf0.3_clahe_hist_eq_5\\artifacts\\tracked_poses.json",
+    "tracking_sequence_path": "D:\\sz\\gui_global_280926\\stage5\\261030_101912_20261014_175644_conf0.3_clahe_hist_eq_5\\artifacts\\tracked_poses.json",
+    "pose_source": "vo",
+    "mesh_path": "C:\\Users\\SI_Intern\\Desktop\\hy_live_detect_dataset\\0_NE_70_SIMPLIFICATION.stl",
+    "mesh_scale": 1.0,
+    "mesh_target_triangles": 0,
+    "rig_extrinsics_path": "D:\\sz\\gui_global_280926\\stage2\\261012_113638\\artifacts\\extrinsics.json",
+    "detection_resolution_mode": null
+  }
+}

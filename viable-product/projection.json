@@ -1,0 +1,907 @@
+{
+  "meta": {
+    "source": "live_backprojection.project_to_mesh",
+    "camera_name": "hik_DA9830524",
+    "intrinsics_path": "C:\\Users\\SI_Intern\\Desktop\\hy_live_detect_dataset\\intrinsics_combined_071026.json",
+    "vo_track_path": "D:\\sz\\gui_global_280926\\stage5\\261028_174635_live_conf0.3_clahe_hist_eq_5\\artifacts\\tracked_poses.json",
+    "tracking_sequence_path": "D:\\sz\\gui_global_280926\\stage5\\261028_174635_live_conf0.3_clahe_hist_eq_5\\artifacts\\tracked_poses.json",
+    "pose_source": "vo",
+    "mesh_path": "C:\\Users\\SI_Intern\\Desktop\\hy_live_detect_dataset\\0_NE_70_SIMPLIFICATION.stl",
+    "mesh_scale": 1.0,
+    "mesh_target_triangles": 0,
+    "rig_extrinsics_path": "D:\\sz\\gui_global_280926\\stage2\\261012_113638\\artifacts\\extrinsics.json",
+    "detection_resolution_mode": null
+  },
+  "source": {
+    "source": "live_backprojection.project_to_mesh",
+    "camera_name": "hik_DA9830524",
+    "intrinsics_path": "C:\\Users\\SI_Intern\\Desktop\\hy_live_detect_dataset\\intrinsics_combined_071026.json",
+    "vo_track_path": "D:\\sz\\gui_global_280926\\stage5\\261028_174635_live_conf0.3_clahe_hist_eq_5\\artifacts\\tracked_poses.json",
+    "tracking_sequence_path": "D:\\sz\\gui_global_280926\\stage5\\261028_174635_live_conf0.3_clahe_hist_eq_5\\artifacts\\tracked_poses.json",
+    "pose_source": "vo",
+    "mesh_path": "C:\\Users\\SI_Intern\\Desktop\\hy_live_detect_dataset\\0_NE_70_SIMPLIFICATION.stl",
+    "mesh_scale": 1.0,
+    "mesh_target_triangles": 0,
+    "rig_extrinsics_path": "D:\\sz\\gui_global_280926\\stage2\\261012_113638\\artifacts\\extrinsics.json",
+    "detection_resolution_mode": null
+  },
+  "frames": [
+    {
+      "frame_id": 11,
+      "frame_name": "frame_000011.png",
+      "timestamp": 1793179385.213,
+      "capture_ts_ns": 1793179385212783616,
+      "camera_position_world_mm": [
+        -2477.9631661481067,
+        367.67892288350254,
+        1678.7943116473323
+      ],
+      "camera_rotation_world_cam": [
+        [
+          0.038448634143565606,
+          -0.5275423766979003,
+          0.848658201704564
+        ],
+        [
+          -0.9990972669567381,
+          -0.0049410449962940875,
+          0.04219285761737687
+        ],
+        [
+          -0.018065262026051004,
+          -0.8495143476494528,
+          -0.5272561231940839
+        ]
+      ],
+      "hits": [
+        {
+          "pixel_u": 552.3314,
+          "pixel_v": 717.4219,
+          "size": 32.9767,
+          "hit": false,
+          "t_hit_mm": null,
+          "point_mm": null
+        },
+        {
+          "pixel_u": 552.3314,
+          "pixel_v": 717.4219,
+          "size": 32.9767,
+          "hit": false,
+          "t_hit_mm": null,
+          "point_mm": null
+        }
+      ]
+    },
+    {
+      "frame_id": 12,
+      "frame_name": "frame_000012.png",
+      "timestamp": 1793179385.586,
+      "capture_ts_ns": 1793179385586462720,
+      "camera_position_world_mm": [
+        -2477.974329504483,
+        367.6687685120532,
+        1678.7857571160637
+      ],
+      "camera_rotation_world_cam": [
+        [
+          0.038448743737579,
+          -0.5275380927217951,
+          0.8486608597269302
+        ],
+        [
+          -0.9990971799618705,
+          -0.004936997802450534,
+          0.04219539127601303
+        ],
+        [
+          -0.018069839435900292,
+          -0.8495170314832713,
+          -0.5272516421241489
+        ]
+      ],
+      "hits": [
+        {
+          "pixel_u": 332.013,
+          "pixel_v": 619.1689,
+          "size": 33.5183,
+          "hit": false,
+          "t_hit_mm": null,
+          "point_mm": null
+        },
+        {
+          "pixel_u": 332.013,
+          "pixel_v": 619.1689,
+          "size": 33.5183,
+          "hit": false,
+          "t_hit_mm": null,
+          "point_mm": null
+        }
+      ]
+    },
+    {
+      "frame_id": 19,
+      "frame_name": "frame_000019.png",
+      "timestamp": 1793179388.066,
+      "capture_ts_ns": 1793179388066081792,
+      "camera_position_world_mm": [
+        -2475.624372428637,
+        369.20076860125215,
+        1678.668312093836
+      ],
+      "camera_rotation_world_cam": [
+        [
+          0.03797177102627624,
+          -0.5275285096815387,
+          0.8486882914700203
+        ],
+        [
+          -0.999116044775173,
+          -0.004713895520330647,
+          0.04177209908344716
+        ],
+        [
+          -0.018035345240443038,
+          -0.84952424960221,
+          -0.5272411930605004
+        ]
+      ],
+      "hits": [
+        {
+          "pixel_u": 332.2114,
+          "pixel_v": 619.0983,
+          "size": 34.0082,
+          "hit": false,
+          "t_hit_mm": null,
+          "point_mm": null
+        },
+        {
+          "pixel_u": 332.2114,
+          "pixel_v": 619.0983,
+          "size": 34.0082,
+          "hit": false,
+          "t_hit_mm": null,
+          "point_mm": null
+        }
+      ]
+    },
+    {
+      "frame_id": 26,
+      "frame_name": "frame_000026.png",
+      "timestamp": 1793179390.586,
+      "capture_ts_ns": 1793179390585942784,
+      "camera_position_world_mm": [
+        -2184.3820852831304,
+        420.829629841059,
+        1669.290892999814
+      ],
+      "camera_rotation_world_cam": [
+        [
+          0.020205030894448788,
+          -0.5255120285049539,
+          0.8505462154540243
+        ],
+        [
+          -0.9996346375563141,
+          0.00465854878377699,
+          0.026624975509589817
+        ],
+        [
+          -0.017954055926488455,
+          -0.8507734162630137,
+          -0.5252259000239329
+        ]
+      ],
+      "hits": [
+        {
+          "pixel_u": 552.7236,
+          "pixel_v": 717.3833,
+          "size": 33.6667,
+          "hit": false,
+          "t_hit_mm": null,
+          "point_mm": null
+        },
+        {
+          "pixel_u": 552.7236,
+          "pixel_v": 717.3833,
+          "size": 33.6667,
+          "hit": false,
+          "t_hit_mm": null,
+          "point_mm": null
+        }
+      ]
+    },
+    {
+      "frame_id": 32,
+      "frame_name": "frame_000032.png",
+      "timestamp": 1793179392.707,
+      "capture_ts_ns": 1793179392706909184,
+      "camera_position_world_mm": [
+        -1948.3741582321359,
+        455.3459702850351,
+        1661.1698452456544
+      ],
+      "camera_rotation_world_cam": [
+        [
+          0.008106097190656457,
+          -0.5235855793886305,
+          0.851934523449195
+        ],
+        [
+          -0.9998314322648159,
+          0.009792036570356294,
+          0.015531357799336684
+        ],
+        [
+          -0.01647416898122177,
+          -0.8519168134718769,
+          -0.5234179445532045
+        ]
+      ],
+      "hits": [
+        {
+          "pixel_u": 552.2144,
+          "pixel_v": 717.3997,
+          "size": 32.7476,
+          "hit": false,
+          "t_hit_mm": null,
+          "point_mm": null
+        },
+        {
+          "pixel_u": 552.2144,
+          "pixel_v": 717.3997,
+          "size": 32.7476,
+          "hit": false,
+          "t_hit_mm": null,
+          "point_mm": null
+        }
+      ]
+    },
+    {
+      "frame_id": 38,
+      "frame_name": "frame_000038.png",
+      "timestamp": 1793179394.821,
+      "capture_ts_ns": 1793179394820892672,
+      "camera_position_world_mm": [
+        -1639.4458476466439,
+        448.24238125010964,
+        1661.5341423982845
+      ],
+      "camera_rotation_world_cam": [
+        [
+          0.009023545342413118,
+          -0.5232897701542927,
+          0.8521070308836329
+        ],
+        [
+          -0.9997694871434467,
+          0.011880873493267054,
+          0.017883439880693623
+        ],
+        [
+          -0.019481996981388146,
+          -0.852071981288497,
+          -0.5230619375338953
+        ]
+      ],
+      "hits": [
+        {
+          "pixel_u": 551.9982,
+          "pixel_v": 717.6183,
+          "size": 32.5691,
+          "hit": false,
+          "t_hit_mm": null,
+          "point_mm": null
+        },
+        {
+          "pixel_u": 551.9982,
+          "pixel_v": 717.6183,
+          "size": 32.5691,
+          "hit": false,
+          "t_hit_mm": null,
+          "point_mm": null
+        }
+      ]
+    },
+    {
+      "frame_id": 41,
+      "frame_name": "frame_000041.png",
+      "timestamp": 1793179395.879,
+      "capture_ts_ns": 1793179395878979840,
+      "camera_position_world_mm": [
+        -1417.4251525766222,
+        468.85566761625887,
+        1658.1937053480804
+      ],
+      "camera_rotation_world_cam": [
+        [
+          0.0010065564237870034,
+          -0.5219647002852001,
+          0.8529664931873627
+        ],
+        [
+          -0.999843543258354,
+          0.014538104284445347,
+          0.010076335067602625
+        ],
+        [
+          -0.017660007042629933,
+          -0.8528431832288963,
+          -0.5218684019666818
+        ]
+      ],
+      "hits": [
+        {
+          "pixel_u": 552.1121,
+          "pixel_v": 717.5261,
+          "size": 32.6654,
+          "hit": false,
+          "t_hit_mm": null,
+          "point_mm": null
+        },
+        {
+          "pixel_u": 552.1121,
+          "pixel_v": 717.5261,
+          "size": 32.6654,
+          "hit": false,
+          "t_hit_mm": null,
+          "point_mm": null
+        }
+      ]
+    },
+    {
+      "frame_id": 43,
+      "frame_name": "frame_000043.png",
+      "timestamp": 1793179396.606,
+      "capture_ts_ns": 1793179396606216704,
+      "camera_position_world_mm": [
+        -1297.0420516554623,
+        457.51274928341905,
+        1677.2046752418826
+      ],
+      "camera_rotation_world_cam": [
+        [
+          0.0008133163983071563,
+          -0.5221709291452331,
+          0.8528404653110921
+        ],
+        [
+          -0.9997200374460656,
+          0.019742643865141574,
+          0.013041270722254417
+        ],
+        [
+          -0.02364709803069265,
+          -0.8526123085956585,
+          -0.522008683822318
+        ]
+      ],
+      "hits": [
+        {
+          "pixel_u": 552.0486,
+          "pixel_v": 717.5123,
+          "size": 32.8149,
+          "hit": false,
+          "t_hit_mm": null,
+          "point_mm": null
+        },
+        {
+          "pixel_u": 552.0486,
+          "pixel_v": 717.5123,
+          "size": 32.8149,
+          "hit": false,
+          "t_hit_mm": null,
+          "point_mm": null
+        }
+      ]
+    },
+    {
+      "frame_id": 46,
+      "frame_name": "frame_000046.png",
+      "timestamp": 1793179397.656,
+      "capture_ts_ns": 1793179397656174592,
+      "camera_position_world_mm": [
+        -1071.736639252317,
+        478.905879639611,
+        1653.0874076413877
+      ],
+      "camera_rotation_world_cam": [
+        [
+          -0.005817240587068961,
+          -0.5192511576085308,
+          0.8546018927162239
+        ],
+        [
+          -0.9997978881706819,
+          0.019466859917732563,
+          0.005022367408655532
+        ],
+        [
+          -0.019244285421815683,
+          -0.8543999512448162,
+          -0.5192594542148075
+        ]
+      ],
+      "hits": [
+        {
+          "pixel_u": 551.9317,
+          "pixel_v": 717.657,
+          "size": 32.6261,
+          "hit": false,
+          "t_hit_mm": null,
+          "point_mm": null
+        },
+        {
+          "pixel_u": 551.9317,
+          "pixel_v": 717.657,
+          "size": 32.6261,
+          "hit": false,
+          "t_hit_mm": null,
+          "point_mm": null
+        }
+      ]
+    },
+    {
+      "frame_id": 49,
+      "frame_name": "frame_000049.png",
+      "timestamp": 1793179398.707,
+      "capture_ts_ns": 1793179398706549504,
+      "camera_position_world_mm": [
+        -871.6630390510561,
+        486.96503434394845,
+        1655.467797124835
+      ],
+      "camera_rotation_world_cam": [
+        [
+          -0.00963339409452539,
+          -0.5190147640085137,
+          0.8547109876791139
+        ],
+        [
+          -0.9997794851030969,
+          0.020949239572695563,
+          0.0014527657456845514
+        ],
+        [
+          -0.018659552116961225,
+          -0.8545085161088289,
+          -0.5191021258021215
+        ]
+      ],
+      "hits": [
+        {
+          "pixel_u": 331.9958,
+          "pixel_v": 619.2253,
+          "size": 33.6472,
+          "hit": false,
+          "t_hit_mm": null,
+          "point_mm": null
+        },
+        {
+          "pixel_u": 331.9958,
+          "pixel_v": 619.2253,
+          "size": 33.6472,
+          "hit": false,
+          "t_hit_mm": null,
+          "point_mm": null
+        }
+      ]
+    },
+    {
+      "frame_id": 53,
+      "frame_name": "frame_000053.png",
+      "timestamp": 1793179400.129,
+      "capture_ts_ns": 1793179400128839936,
+      "camera_position_world_mm": [
+        -653.5668436194385,
+        497.2836012768591,
+        1656.3955312722926
+      ],
+      "camera_rotation_world_cam": [
+        [
+          -0.016423802288402067,
+          -0.518149742128416,
+          0.8551322140176021
+        ],
+        [
+          -0.9996779634531532,
+          0.02505651950690913,
+          -0.0040174888121044545
+        ],
+        [
+          -0.01934497620952326,
+          -0.854922812634249,
+          -0.5183944022971289
+        ]
+      ],
+      "hits": [
+        {
+          "pixel_u": 552.1293,
+          "pixel_v": 717.5188,
+          "size": 32.7144,
+          "hit": false,
+          "t_hit_mm": null,
+          "point_mm": null
+        },
+        {
+          "pixel_u": 552.1293,
+          "pixel_v": 717.5188,
+          "size": 32.7144,
+          "hit": false,
+          "t_hit_mm": null,
+          "point_mm": null
+        }
+      ]
+    },
+    {
+      "frame_id": 57,
+      "frame_name": "frame_000057.png",
+      "timestamp": 1793179401.538,
+      "capture_ts_ns": 1793179401538389760,
+      "camera_position_world_mm": [
+        -446.95809694534523,
+        503.5078686880631,
+        1652.4887430539281
+      ],
+      "camera_rotation_world_cam": [
+        [
+          -0.021713295654487277,
+          -0.5161069551328572,
+          0.8562488795060182
+        ],
+        [
+          -0.9995801557014703,
+          0.027641418393205056,
+          -0.00868702003198595
+        ],
+        [
+          -0.019184502069252474,
+          -0.8560780121301463,
+          -0.5164904568601939
+        ]
+      ],
+      "hits": [
+        {
+          "pixel_u": 552.0394,
+          "pixel_v": 717.5475,
+          "size": 32.817,
+          "hit": false,
+          "t_hit_mm": null,
+          "point_mm": null
+        },
+        {
+          "pixel_u": 552.0394,
+          "pixel_v": 717.5475,
+          "size": 32.817,
+          "hit": false,
+          "t_hit_mm": null,
+          "point_mm": null
+        }
+      ]
+    },
+    {
+      "frame_id": 58,
+      "frame_name": "frame_000058.png",
+      "timestamp": 1793179401.888,
+      "capture_ts_ns": 1793179401888189184,
+      "camera_position_world_mm": [
+        -392.3264589965315,
+        504.8354001306102,
+        1650.25326871165
+      ],
+      "camera_rotation_world_cam": [
+        [
+          -0.023064115564553664,
+          -0.515186517719564,
+          0.8567677039508513
+        ],
+        [
+          -0.9995514612108198,
+          0.028258820648003967,
+          -0.00991541461052193
+        ],
+        [
+          -0.01910295695800904,
+          -0.8566121006707604,
+          -0.5156072012878481
+        ]
+      ],
+      "hits": [
+        {
+          "pixel_u": 552.0862,
+          "pixel_v": 717.5939,
+          "size": 32.7697,
+          "hit": false,
+          "t_hit_mm": null,
+          "point_mm": null
+        },
+        {
+          "pixel_u": 552.0862,
+          "pixel_v": 717.5939,
+          "size": 32.7697,
+          "hit": false,
+          "t_hit_mm": null,
+          "point_mm": null
+        }
+      ]
+    },
+    {
+      "frame_id": 59,
+      "frame_name": "frame_000059.png",
+      "timestamp": 1793179402.243,
+      "capture_ts_ns": 1793179402242554112,
+      "camera_position_world_mm": [
+        -341.40073080213824,
+        506.01204456942463,
+        1650.1296521394804
+      ],
+      "camera_rotation_world_cam": [
+        [
+          -0.024391140112916418,
+          -0.5148653808639972,
+          0.8569239825514064
+        ],
+        [
+          -0.9995181427033314,
+          0.029020404068231614,
+          -0.01101356230287996
+        ],
+        [
+          -0.019197778279658448,
+          -0.8567797008189957,
+          -0.5153251299651876
+        ]
+      ],
+      "hits": [
+        {
+          "pixel_u": 552.0917,
+          "pixel_v": 717.554,
+          "size": 32.754,
+          "hit": false,
+          "t_hit_mm": null,
+          "point_mm": null
+        },
+        {
+          "pixel_u": 552.0917,
+          "pixel_v": 717.554,
+          "size": 32.754,
+          "hit": false,
+          "t_hit_mm": null,
+          "point_mm": null
+        }
+      ]
+    },
+    {
+      "frame_id": 68,
+      "frame_name": "frame_000068.png",
+      "timestamp": 1793179405.448,
+      "capture_ts_ns": 1793179405448235776,
+      "camera_position_world_mm": [
+        140.17649370277698,
+        517.2859192312529,
+        1659.361108269156
+      ],
+      "camera_rotation_world_cam": [
+        [
+          -0.0476630571721761,
+          -0.516849901531282,
+          0.854748157218315
+        ],
+        [
+          -0.9986411619656377,
+          0.04271013044470884,
+          -0.029860917355568246
+        ],
+        [
+          -0.021072793097309885,
+          -0.8550099555236184,
+          -0.5181832816162425
+        ]
+      ],
+      "hits": [
+        {
+          "pixel_u": 552.2141,
+          "pixel_v": 717.5375,
+          "size": 32.6532,
+          "hit": false,
+          "t_hit_mm": null,
+          "point_mm": null
+        },
+        {
+          "pixel_u": 552.2141,
+          "pixel_v": 717.5375,
+          "size": 32.6532,
+          "hit": false,
+          "t_hit_mm": null,
+          "point_mm": null
+        }
+      ]
+    },
+    {
+      "frame_id": 71,
+      "frame_name": "frame_000071.png",
+      "timestamp": 1793179406.504,
+      "capture_ts_ns": 1793179406504482304,
+      "camera_position_world_mm": [
+        282.2155474061345,
+        520.322430331036,
+        1656.9657905997785
+      ],
+      "camera_rotation_world_cam": [
+        [
+          -0.04834508700129807,
+          -0.5172430728150095,
+          0.8544719750745038
+        ],
+        [
+          -0.9986433079166329,
+          0.04160070885053818,
+          -0.03131971545939264
+        ],
+        [
+          -0.01934673399211094,
+          -0.8548268740792022,
+          -0.5185525231216399
+        ]
+      ],
+      "hits": [
+        {
+          "pixel_u": 552.0865,
+          "pixel_v": 717.5085,
+          "size": 32.6268,
+          "hit": false,
+          "t_hit_mm": null,
+          "point_mm": null
+        },
+        {
+          "pixel_u": 552.0865,
+          "pixel_v": 717.5085,
+          "size": 32.6268,
+          "hit": false,
+          "t_hit_mm": null,
+          "point_mm": null
+        }
+      ]
+    },
+    {
+      "frame_id": 72,
+      "frame_name": "frame_000072.png",
+      "timestamp": 1793179406.873,
+      "capture_ts_ns": 1793179406872547072,
+      "camera_position_world_mm": [
+        363.94894220118016,
+        557.0935066229634,
+        1680.5036587172224
+      ],
+      "camera_rotation_world_cam": [
+        [
+          -0.06751239394312064,
+          -0.5265202735608395,
+          0.8474777154553907
+        ],
+        [
+          -0.9976018103527498,
+          0.04861094571751732,
+          -0.04927072089350452
+        ],
+        [
+          -0.015254659779419533,
+          -0.848771687490734,
+          -0.5285394194089464
+        ]
+      ],
+      "hits": [
+        {
+          "pixel_u": 332.3717,
+          "pixel_v": 619.5306,
+          "size": 34.1286,
+          "hit": false,
+          "t_hit_mm": null,
+          "point_mm": null
+        },
+        {
+          "pixel_u": 332.3717,
+          "pixel_v": 619.5306,
+          "size": 34.1286,
+          "hit": false,
+          "t_hit_mm": null,
+          "point_mm": null
+        }
+      ]
+    },
+    {
+      "frame_id": 73,
+      "frame_name": "frame_000073.png",
+      "timestamp": 1793179407.227,
+      "capture_ts_ns": 1793179407227070720,
+      "camera_position_world_mm": [
+        446.78153272995576,
+        549.8406788128182,
+        1678.326474355936
+      ],
+      "camera_rotation_world_cam": [
+        [
+          -0.06655525321254578,
+          -0.5263811734106376,
+          0.847639816519171
+        ],
+        [
+          -0.9976553268940384,
+          0.048682657377361556,
+          -0.04810246969363807
+        ],
+        [
+          -0.01594512432572588,
+          -0.8488538502884456,
+          -0.528387068218667
+        ]
+      ],
+      "hits": [
+        {
+          "pixel_u": 552.1154,
+          "pixel_v": 719.9337,
+          "size": 32.7469,
+          "hit": false,
+          "t_hit_mm": null,
+          "point_mm": null
+        },
+        {
+          "pixel_u": 552.1154,
+          "pixel_v": 719.9337,
+          "size": 32.7469,
+          "hit": false,
+          "t_hit_mm": null,
+          "point_mm": null
+        }
+      ]
+    },
+    {
+      "frame_id": 119,
+      "frame_name": "frame_000119.png",
+      "timestamp": 1793179423.609,
+      "capture_ts_ns": 1793179423609095424,
+      "camera_position_world_mm": [
+        1974.9260778388661,
+        523.6032509982043,
+        1662.8738989105245
+      ],
+      "camera_rotation_world_cam": [
+        [
+          -0.12174285716005806,
+          -0.5141624294618062,
+          0.8490086412165893
+        ],
+        [
+          -0.9924260537091253,
+          0.07719572313106615,
+          -0.09555808835260562
+        ],
+        [
+          -0.01640745714113678,
+          -0.8542118100683257,
+          -0.5196662187307893
+        ]
+      ],
+      "hits": [
+        {
+          "pixel_u": 323.7481,
+          "pixel_v": 660.658,
+          "size": 40.3978,
+          "hit": false,
+          "t_hit_mm": null,
+          "point_mm": null
+        },
+        {
+          "pixel_u": 323.7481,
+          "pixel_v": 660.658,
+          "size": 40.3978,
+          "hit": false,
+          "t_hit_mm": null,
+          "point_mm": null
+        }
+      ]
+    }
+  ],
+  "skipped_frame_ids": [
+    136
+  ]
+}
